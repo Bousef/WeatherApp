@@ -1,13 +1,13 @@
-import { useState } from 'react'
-
 import './App.css'
-
+import React from 'react'
+import { useState } from 'react'
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className='app'>
-      <h1>Hello!</h1>
+      <div className='search'>
+        <input type='text' placeholder='Search Location' />
+      </div>
     </div>
   )
 }
